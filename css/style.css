@@ -1,0 +1,88 @@
+.menu,
+.center
+{ border: 2px solid black;
+   
+}
+
+.menu {
+    width: 7%;
+    height: 555px;
+    float:left;
+     }
+
+.center {
+    width: 92%;
+    height: 555px;
+    float:left;
+    }
+
+.zagol{
+    width: 99%;
+    height: 74px;
+    border: 2px solid black;
+}
+.text_zagol{
+    text-align:center;
+    margin-top: -47px;
+}
+.samolet{
+    
+}
+
+
+.vertolet{
+
+}
+
+.raznoe{
+
+}
+
+h4 {
+  text-align:center;
+}
+ 
+
+h4 a:hover{
+border-bottom:2px solid black;
+}
+a { text-decoration:none;
+}
+.poisk { 
+    width: 15%;
+    height: 25px;
+    margin-left:1500px;
+}	
+.text_zagol2 {
+margin-bottom: -35px;
+}
+
+.pppp {
+margin-top:6px;
+
+}
+.f-35 {
+    width: 200px;
+    height: 150px;
+    margin-top: 40px;
+    margin-left: 35px;
+    border:2px solid black;
+    border-radius: 15px
+}
+
+.f35 {
+margin-left: 120px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
