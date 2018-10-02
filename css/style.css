@@ -1,3 +1,8 @@
+body{
+    background-image: url("../fon.jpg");
+}
+
+
 .menu,
 .center
 { border: 2px solid black;
@@ -23,7 +28,7 @@
 }
 .text_zagol{
     text-align:center;
-    margin-top: -47px;
+    margin-top: -5px;
 }
 .samolet{
     
@@ -51,14 +56,14 @@ a { text-decoration:none;
 .poisk { 
     width: 15%;
     height: 25px;
-    margin-left:1500px;
+    margin-left:1300px;
 }	
 .text_zagol2 {
 margin-bottom: -35px;
 }
 
 .pppp {
-margin-top:6px;
+margin-top:3px;
 
 }
 .f-35 {
@@ -66,7 +71,7 @@ margin-top:6px;
     height: 150px;
     margin-top: 40px;
     margin-left: 35px;
-    border:2px solid black;
+    //border:2px solid black;
     border-radius: 15px
 }
 
@@ -74,15 +79,47 @@ margin-top:6px;
 margin-left: 120px;
 
 }
+//anketa{
+    width: 10%;
+    height: 25px;
+    border:2px solid black;
+     float:right;
+     margin-top:33px;
+     border-radius: 15px
+}
+.Questionnaire{
+    margin-left:800px;
+
+}
+.anketa_1{
+      margin-top: -16px;
+}
+input[type="search"]{
+width: 200px;
+height: 25px;
+border-radius: 4px;
+background-color: #96FFFA;
 
 
 
 
+}
 
+input[type="submit"]:focus{
+  box-shadow: 2px 2px 4px #000;
 
-
-
-
+}
+input[name="nsy"]{
+     width: 10%;
+     height: 25px;
+     border:2px solid black;
+     float:right;
+     margin-top:33px;
+     margin-right: 5px;
+     background-color: #526992;
+     border-radius: 15px
+     
+}
 
 
 

@@ -1,4 +1,4 @@
-
+/*
 var a=4,b=6;
 if (a>3 && b>3)
 console.log("Yes");
@@ -142,3 +142,42 @@ break;
 }
 }}
 console.log("lkl");
+
+
+var a=-10;
+var total=0;
+while (a<10){
+	console.log("summ",total);
+	total=total+a;
+	a++;
+}
+console.log("summ",total);
+
+
+var a=0;
+var total=0;
+do {
+
+	console.log("summ",total);
+	total=total+a;
+	a=a+2; //a+=2
+}
+while (a<=50)
+console.log(total)
+*/
+var a = {};
+a.properties1="svoustvo"
+a.properties2=123,
+a.properties3=false,
+a.properties4=true,
+a.properties5="easy"
+// Objeckt a 
+for (var t in a){
+	console.log(t);
+	console.log(a[t]);
+	console.log("___________")
+}
+// svoustva obj
+//for (var t in a){
+//	console.log(t);
+//}
