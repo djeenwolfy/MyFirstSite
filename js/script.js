@@ -164,7 +164,7 @@ do {
 }
 while (a<=50)
 console.log(total)
-*/
+
 var a = {};
 a.properties1="svoustvo"
 a.properties2=123,
@@ -181,3 +181,28 @@ for (var t in a){
 //for (var t in a){
 //	console.log(t);
 //}
+
+var str = function() {
+	var a=prompt('First, word')
+	var b=prompt('Second, word')
+	var c=prompt('Third, word ')
+    var total_word=a+" "+b+" "+c;
+    return total_word;
+
+}
+
+var end=function()
+console.log(end)
+
+var sr_str = function(){
+	var d=prompt('word')
+    var z=prompt('word')
+    var tmp=d+" "+z
+if (d===z) 
+	return tmp;
+}    
+var end=sr_str()
+console.log(end)
+*/
+var str="uuu";
+console.log(str.("u").length);
